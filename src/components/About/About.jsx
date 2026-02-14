@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { FaGlobe, FaGraduationCap, FaBriefcase, FaBullseye,FaGem } from "react-icons/fa";
 
-import './about.css';
+import './About.css';
 
 const values = [
   {
