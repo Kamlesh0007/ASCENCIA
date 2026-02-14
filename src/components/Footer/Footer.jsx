@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import logo from "/images/Ascencia-Malta-Logo.svg"
 import './Footer.css';
 
 export default function Footer() {
@@ -7,7 +8,9 @@ export default function Footer() {
       <div className="container">
         <div className="footer__grid">
           <div>
-            <div className="footer__brand-name">Ascencia Malta</div>
+            <div className="footer__logo">
+             <img   src={logo} alt="Ascencia Business School Malta"  />
+            </div>
             <p className="footer__brand-desc">
               Your career starts here. Premium business education in the heart of the Mediterranean, preparing graduates for success in a dynamic world.
             </p>

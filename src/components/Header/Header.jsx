@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import logo from "/images/Ascencia-Malta-Logo.svg"
 import './Header.css';
 
 export default function Header() {
@@ -30,11 +31,10 @@ export default function Header() {
       <header className={`header ${scrolled || mobileOpen ? 'header--solid' : 'header--transparent'}`} data-testid="header">
         <div className="container header__inner">
           <Link to="/" className="header__logo" data-testid="link-home-logo">
-            <div className="header__logo-icon">A</div>
-            <div className="header__logo-text">
-              <span className="header__logo-name">Ascencia</span>
-              <span className="header__logo-sub">Business School</span>
+            <div className="header__logo-icon">
+              <img   src={logo} alt="Ascencia Business School Malta"  />
             </div>
+      
           </Link>
 
           <nav className="header__nav" data-testid="nav-desktop">

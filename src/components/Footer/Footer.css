@@ -12,11 +12,18 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.footer__brand-name {
+.footer__logo {
   font-family: var(--font-serif);
   font-size: 1.3rem;
   font-weight: 700;
-  color: var(--color-white);
+ width: 140px;
+  height: 50px;
+  background: var(--color-gold);
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  justify-content: center;
   margin-bottom: 16px;
 }
 
